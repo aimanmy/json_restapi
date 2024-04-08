@@ -9,7 +9,8 @@ import java.util.List;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import group.api.json_restapi.respository.JsonRepository;
+import group.api.json_restapi.controller.JsonController;
+import group.api.json_restapi.repository.JsonRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;

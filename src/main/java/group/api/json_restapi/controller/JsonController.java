@@ -1,13 +1,12 @@
-package group.api.json_restapi;
+package group.api.json_restapi.controller;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import group.api.json_restapi.model.Json;
-import group.api.json_restapi.respository.JsonRepository;
+import group.api.json_restapi.repository.JsonRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

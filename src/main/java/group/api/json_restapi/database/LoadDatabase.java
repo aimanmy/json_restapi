@@ -1,6 +1,6 @@
 package group.api.json_restapi.database;
 
-import group.api.json_restapi.respository.JsonRepository;
+import group.api.json_restapi.repository.JsonRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
