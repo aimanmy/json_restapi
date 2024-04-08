@@ -31,7 +31,7 @@ Create Project Spring Boot rest_api.
   
 ![1](https://github.com/aimanmy/json_restapi/assets/77477805/4187536c-0bcc-45a4-926d-5a991398e068)
 
-2. Use Spring Boot version 3.2.4 and search the dependency and add this required dependency:-
+2. Use Spring Boot version `3.2.4` and search the dependency and add this required dependency:-
    * `Spring Web`
    * `Spring Data JPA`
    * `H2 Database`
@@ -56,7 +56,7 @@ The project follows a structured package organization:
 It will look like this, now next we will start the coding for the rest of the package.
 
 ## PLEASE TAKE NOTE
-*Before starting the coding, from the Github file, make sure to `copy` the `pom.xml` to load maven dependencies (can be found within the root folder) & copy `application.properties` (can be found in resources).* 
+*Before starting the coding, from the Github file, make sure to `copy` the content of `pom.xml` to load maven dependencies (can be found within the root folder) & copy the content of `application.properties` (can be found in resources).* 
 
 ## Coding Rest API Spring Boot
 This project implements a JSON REST API using Spring Boot, fetching data from the JsonPlaceholde/post, processing it, and providing endpoints to retrieve formatted JSON data and find entries with the longest titles.
