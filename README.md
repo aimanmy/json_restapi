@@ -59,7 +59,7 @@ It will look like this, now next we will start the coding for the rest of the pa
 *Before starting the coding, from the Github file, make sure to `copy` the content of `pom.xml` to load maven dependencies (can be found within the root folder) & `copy` the content of `application.properties` (can be found in resources).* 
 
 ## Coding Rest API Spring Boot
-This project implements a JSON REST API using Spring Boot, fetching data from the JsonPlaceholde/post, processing it, and providing endpoints to retrieve formatted JSON data and find entries with the longest titles.
+This project implements a JSON REST API using Spring Boot, fetching data from the JsonPlaceholder/post, processing it, and providing endpoints to retrieve formatted JSON data and find entries with the longest titles.
 
 ### `JsonRestApiApplication.java`
 - Create the class within the `root` package.
@@ -318,7 +318,7 @@ public class JsonController {
 
 ![8](https://github.com/aimanmy/json_restapi/assets/77477805/13651aca-22b2-42f6-8ec7-e1ff8b743f60)
 
-* Based on the URL, if add `/longesttitle` after the `/jsons`, a  `JSON` response of the longestitle will be logged. URL: http://localhost:8080/jsons/longesttile.
+* Based on the URL, if add `/longesttitle` after the `/jsons`, a  `JSON` response of the longest title will be logged. URL: http://localhost:8080/jsons/longesttitle.
 * The `Longest Title` will display their `JSON` based on the latest data.
 
 ![9](https://github.com/aimanmy/json_restapi/assets/77477805/f4f9c78d-62b8-4853-9cb4-f6da2cdef7fb)
