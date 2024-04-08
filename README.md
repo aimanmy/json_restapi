@@ -26,7 +26,7 @@ Create Project Spring Boot rest_api.
 1. For Intellij, directly create new project within the IDE and select Spring Initilizr
     * Select `Java 17` of JDK Oracle `OpenJDK 22`
     * Select `Language: Java` & `Type: Maven` for this project
-    * `Name`, `Group` or `Pachage `name created based on `json_restapi `(follow what you prefer)**
+    * `Name`, `Group` or `Pachage `name created based on `json_restapi `(follow what you prefer)
     * Then create the project
   
 ![1](https://github.com/aimanmy/json_restapi/assets/77477805/4187536c-0bcc-45a4-926d-5a991398e068)
